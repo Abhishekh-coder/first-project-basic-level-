@@ -182,3 +182,78 @@
     border: 1px solid white;
     border-radius: 5%;
 }
+
+#hero-section-main{
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #dce6e8 100%), url("hero_image.jpg");
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+}
+
+#main-hero-section-amazonin-path{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 96%;
+    height: 2.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+
+#main-hero-section-amazonin-path-span-text{
+    color: #007185;
+
+}
+
+#main-hero-section-amazonin-path-span-text:hover{
+    color: #f90;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#main-boxes-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: -18rem;
+
+}
+
+.box-main-section{
+    height:  25rem;
+    background-color: white;
+    width: 23%;
+    padding: 1.25rem 0rem 0.9375rem;
+
+}
+
+#main-section-box1-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#main-section-box1-img{
+ width: 90%;
+}
+
+.h2-box,.p-box{
+     padding-left: 1rem;
+}
+
+.p-box{
+color: #2162A1;
+display: inline-block;
+}
+
+.p-box:hover{
+    color: orange;
+}
