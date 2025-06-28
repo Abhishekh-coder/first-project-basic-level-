@@ -62,6 +62,11 @@
     width: 38.75rem;
     height: 2.5rem;
     border-radius: 0.25rem;
+    transition: all 0.153s ease-in;
+}
+
+#navbar-search-section:hover{
+    border: solid orange;
 }
 
 #search-select-navbar{
@@ -95,6 +100,8 @@
  
 #lang-navbar-section{
     height: 2.5rem;
+    display: flex;
+    align-items: center;
 }
 
 #lang-select-navbar{
@@ -107,6 +114,71 @@
      border: none;
 }
 
-#navbar-signin{
-    background-color: pink;
+.navbar-first{
+    font-size: 0.7rem;
+}
+
+.navbar-second{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+#navbar-cart-section{
+    display: flex;
+} 
+
+#navbar-cart-section i{
+    font-size: 2.2rem;
+}
+
+ #navbar-cart-first {
+    margin-top: 1.3rem;
+}
+
+#panel-header-section,
+#panel-right-section-header{
+    display: flex;
+    background-color: #222f3d;
+    height: 2.5rem;
+    align-items: center;   
+    color: white
+}
+
+#panel-all-section-menu{
+    display: flex;
+    width: 2.8125rem;
+    height: 100%;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+
+#panel-all-section-menu i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#panel-all-section-text{
+    margin-left: 0.5rem;
+    font-size: 0.825rem;
+}
+  
+#panel-right-section-header{
+    width: 100%;
+}
+
+.margin-right{
+    font-size: 0.8725rem;
+    margin-left: 0.6rem;
+    border: 1px solid transparent;
+    transition :all 0.153s ease-in;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.margin-right:hover{
+    border: 1px solid white;
+    border-radius: 5%;
 }
